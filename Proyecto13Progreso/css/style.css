@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(255,129,161,1) 43%, rgba(240,174,106,1) 61%);
+}
+
+@font-face {
+    font-family: porcenta;
+    src: url(../Valoon.ttf);
+}
+
+.barra{
+    background-color: black;
+    height: 60px;
+    width: 50%;
+    margin: 130px auto;
+    overflow: hidden;
+    border: none;
+    border-radius: 20rem;
+}
+
+.progreso{
+    height: 100%;
+    width: 0;
+    background: linear-gradient(213deg, rgba(64,254,70,1) 0%, rgba(89,221,249,1) 80%);
+    display: block;
+    border-radius: 20rem; 
+}
+
+.porcentaje{
+    font-size: 7rem;
+    font-family: porcenta;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(100px);
+    background: linear-gradient(180deg, rgb(244, 241, 52) 42%, rgba(254,64,252,1) 63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contenedor{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.contenedor.celebracion{
+    background-image: url("../img/fuegos.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
